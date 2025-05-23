@@ -1,0 +1,7 @@
+lib/
+venv/
+__pycache__/
+.DS_Store
+venv/
+.venv/
+package.json

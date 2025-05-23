@@ -1,0 +1,22 @@
+{
+  "name": "@zane-ops/root",
+  "version": "1.0.0",
+  "author": {
+    "name": "Adrien KISSIE",
+    "email": "hello@fredkiss.dev"
+  },
+  "description": "A self-hosted PaaS for your web services, databases, CRONs, and everything you need for your next startup.",
+  "scripts": {
+    "format": "biome check ./frontend ./docker --write",
+    "test": "pnpm -r run test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": "20"
+  }
+}

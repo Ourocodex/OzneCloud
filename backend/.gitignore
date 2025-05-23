@@ -1,0 +1,10 @@
+lib/
+venv/
+__pycache__/
+celerybeat-schedule
+out.yaml
+docker_service_testing.py
+record_requests.py
+seed/
+/test_*.py
+.venv/
